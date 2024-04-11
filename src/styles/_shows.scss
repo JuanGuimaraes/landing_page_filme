@@ -1,0 +1,30 @@
+.shows {
+
+    &__title {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 32px;
+    }
+
+    &__list {
+        padding-top: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+
+        &__item {
+
+            img {
+                width: 100%;
+                padding: 16px;
+                border-radius: 50px;
+                height:400px;
+            }
+
+            &__text {
+                padding: 8px;
+                text-align: center;
+            }
+        }
+    }
+}

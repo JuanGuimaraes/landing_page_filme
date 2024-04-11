@@ -1,0 +1,35 @@
+@use 'variaveis';
+
+.elenco {
+    
+
+    .title {
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 32px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 3px;
+        width: 100%;
+        padding: 16px 32px ;
+
+
+        &__item {
+            justify-content: center;
+            color: variaveis.$corTextos;
+            padding-bottom: 50px;
+            text-align: center;
+            
+
+            img {
+                padding: 8px;
+                width: 320px;
+                height: 420px;
+                border-radius: 50%;
+            }
+        }
+    }
+}

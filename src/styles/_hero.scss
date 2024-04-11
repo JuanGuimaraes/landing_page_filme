@@ -1,0 +1,39 @@
+@use 'variaveis';
+
+.hero {
+    background-image: url(../../src/imagens/buraco_negro.jpg);
+    background-size: cover;
+
+        &__img {
+                border-radius: 50%;
+                margin-bottom: 0;
+                margin-left: 16px;
+                padding-bottom: 0;
+                max-width: 100px;
+            }
+
+        &__content {
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: #00000065;
+            margin: 0 33%;
+            border-radius: 50px;
+            
+
+            img {
+                max-width: 80%;
+            }
+            &__item {
+                margin-top: 450px;
+                margin-bottom: 0;
+                display: flex;
+                
+                &__texto {
+                    color:variaveis.$corTextos;
+                    padding:50px 16px 16px ;
+                }
+            
+        }
+    }
+}
